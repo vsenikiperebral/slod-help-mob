@@ -16,6 +16,11 @@
       font-family: Aleo, serif;
       font-weight: 700;
       font-size: 38px;
+
+      @media screen and (max-width: 767px)
+    {
+      font-size: 30px;
+    }
     }
 
     .logo-yellow {
@@ -25,6 +30,11 @@
       font-family: Aleo, serif;
       font-weight: 700;
       font-size: 38px;
+
+      @media screen and (max-width: 767px)
+      {
+        font-size: 30px;
+      }
     }
 
     div {
@@ -35,6 +45,14 @@
       letter-spacing: 0.05em;
       text-transform: uppercase;
     }
+
+    .item {
+      :hover,
+      :focus {
+        color: #fa9494;
+      }
+    }
+
     .link {
       display: block;
       margin-left: 15px;
