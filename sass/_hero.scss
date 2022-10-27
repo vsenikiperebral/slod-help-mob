@@ -5,27 +5,21 @@
   padding-right: 20px;
 text-align: center;
 
-@media screen and (min-width: 767px)
-    {
-     display: flex;
-    }
+background-image: url("../images/hero-bg-1.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+// @media screen and (min-width: 767px)
+//     {
+//      display: flex;
+//     }
 }
 
-.background {
-  background-image: url("../images/hero-bg-1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 
-
-  .hero-img {
+  .hero__img {
     width: 100%;
     margin-bottom: 40px;
-   
-    @media screen and (min-width: 767px)
-    {
-      max-width: 600px;
-    }
   }
 
   .divider-bottom {
@@ -34,4 +28,3 @@ text-align: center;
     background-position: center;
     background-size: cover;
   }
-}
