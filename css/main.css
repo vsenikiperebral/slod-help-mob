@@ -118,7 +118,13 @@ body {
 
 .hero__img {
   width: 100%;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1000px) and (max-width: 1279px) {
+  .hero__img {
+    width: 900px;
+  }
 }
 
 .divider-bottom {

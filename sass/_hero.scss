@@ -9,18 +9,21 @@ background-image: url("../images/hero-bg-1.jpg");
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-// @media screen and (min-width: 767px)
-//     {
-//      display: flex;
-//     }
 }
 
-
-  .hero__img {
+.hero__img {
 width: 100%;
-margin-bottom: 40px;
+margin-top: 20px;
+margin-bottom: 30px;
+
+@media screen and (min-width: 1000px) and (max-width: 1279px)
+  {
+    width: 900px;
   }
+
+
+}
+
 
   .divider-bottom {
     background-image: url('../images/divider-bottom.png');
