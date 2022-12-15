@@ -9,6 +9,15 @@ background-image: url("../images/hero-bg-1.jpg");
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media screen and (min-width: 1280px) and (max-width: 1920px)
+  {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1320px;
+  }
 }
 
 .hero__img {
@@ -18,10 +27,13 @@ margin-bottom: 30px;
 
 @media screen and (min-width: 1000px) and (max-width: 1279px)
   {
-    width: 910px;
+    width: 900px;
   }
 
-
+  @media screen and (min-width: 1280px) and (max-width: 1920px)
+  {
+    width: 720px;
+  }
 }
 
 
@@ -30,4 +42,15 @@ margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+
+  .hero__img-title {
+    
+    @media screen and (min-width: 1280px) and (max-width: 1920px)
+  {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
   }
