@@ -158,6 +158,10 @@ p {
   }
 }
 
+.about {
+  margin-bottom: 30px;
+}
+
 span {
   display: block;
   font-weight: 700;
@@ -186,6 +190,10 @@ span {
   .about__text {
     font-size: calc(20px + 4 * (100vw - 360px) / 407);
   }
+}
+
+.about__pic {
+  width: 70%;
 }
 
 h1,
@@ -381,4 +389,30 @@ h3 {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.house__image-2 {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.house__image-vert {
+  padding-bottom: 20px;
+}
+
+.frames {
+  margin-top: 10px;
+}
+
+.frames__image-1 {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .frames__text {
+    font-size: calc(20px + 4 * (100vw - 360px) / 407);
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -72,7 +72,11 @@
             <span>ABOUT</span>
             <h2 class="about__title">Hi! I’m Aleksandra</h2>
             <div class="about__element">
-                <img src="./images/alex-1.jpg" alt="" class="about__pic-one" />
+                <img srcset="
+                ./images/alex-1-400.jpg 400w,
+                ./images/alex-1-640.jpg 640w,
+                ./images/alex-1-960.jpg 960w,
+                " src="./images/alex-1-400.jpg" alt="Alex Slodovnik" class="about__pic" />
             </div>
             <div class="about__text about__element">
                 <div class="about__text">
@@ -89,7 +93,11 @@
                 <a href="" class="button button__second">HELP PLEASE</a>
             </div>
             <div class="about__element">
-                <img src="./images/alex-2.jpg" alt="" class="about__pic-two" />
+                <img srcset="
+                ./images/alex-3-400.jpg 400w,
+                ./images/alex-3-640.jpg 640w,
+                ./images/alex-3-960.jpg 960w,
+                " src="./images/alex-3-400.jpg" alt="Dasha Slodovnik" class="about__pic" />
             </div>
         </section>
         <div class="divider-top">
@@ -116,7 +124,7 @@
                             city, which moved into the most active phase on March 23.
                         </p>
                     </div>
-                    <div class="house__image">
+                    <div class="house__image house__image-vert">
                         <img href src="./images/main-1-data.jpg" alt="" class="house__image-1" />
                     </div>
                 </li>
@@ -138,10 +146,69 @@
                             destroyed in an instant!
                         </p>
                     </div>
-                    </div>
-                    <div class="house__image">
+                    <div class="house__image house__image-vert">
                         <img src="./images/main-2-data.jpg" alt="" class="house__image-1" />
                     </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="house container">
+            <ul class="house__two">
+                <li>
+                    <h2 class="house__title">
+                        Neighbor House <br />
+                        Half Destroyed
+                    </h2>
+                    <div class="house__text">
+                        <p>
+                            At the moment, having lost our jobs, my husband and I are
+                            constantly trying to earn some money for the household
+                            needs of the family. But the prospect of restoring the
+                            destroyed apartment on their own in the near future seems
+                            unrealistic.
+                        </p>
+                        <p>
+                            Any material donation will help our family to return to
+                            their hometown as soon as possible and start restoring our
+                            small, but very memorable apartment, in which we were so
+                            happy together before the war.
+                        </p>
+                    </div>
+                    <div class="house__image house__image-vert">
+                        <img src="./images/main-4.jpg" alt="" class="house__image-2" />
+                    </div>
+                    <div class="house__image house__image-vert">
+                        <img src="./images/main-5.jpg" alt="" class="house__image-2" />
+                    </div>
+
+                </li>
+                <li>
+                    <h2 class="house__title">
+                        Apartment <br />
+                        Burned Down
+                    </h2>
+                    <div class="house__text">
+                        <p>
+                            In the family circle with tears we remember things dear to
+                            our hearts that will never be returned!
+                        </p>
+                        <p>
+                            It was very difficult for our kids to accept the loss of
+                            their favorite toys and personal items, especially those
+                            that have been preserved since infancy.
+                        </p>
+                        <p>
+                            We thank God for saving our lives, the lives of our
+                            children and relatives! We really hope that Ukraine will
+                            survive!
+                        </p>
+                    </div>
+                    <div class="house__image house__image-vert">
+                        <img src="./images/main-6.jpg" alt="" class="house__image-2" />
+                    </div>
+                    <div class="house__image house__image-vert">
+                        <img src="./images/main-7.jpg" alt="" class="house__image-2" />
                     </div>
                 </li>
             </ul>
@@ -149,111 +216,24 @@
         <div class="divider-bottom">
             <img src="./images/pixel-white.jpg" alt="" />
         </div>
+        <section class="frames container">
+            <h2 class="frames__title">
+                Frames <br />
+                Of Hell
+            </h2>
+            <p class="frames__text">
+                In Irpen, according to official figures, the Russian army killed
+                about 300 civilians, including women and, worst of all, children!
+            </p>
+            <img src="./images/main-15.jpg" alt="" class="frames__image-1" />
+            <img src="./images/main-14.jpg" alt="" class="frames__image-1" />
 
-        <section class="section-house-three">
-            <div class="container">
-                <ul class="house-three list">
-                    <li>
-                        <div class="house-three-all">
-                            <div class="house-three-image-one">
-                                <img src="./images/main-4.jpg" alt="" width="390" />
-                            </div>
-                            <div class="house-three-image-two">
-                                <img src="./images/main-5.jpg" alt="" width="250" />
-                            </div>
-                            <div class="house-three-text-all">
-                                <h2 class="section-title">
-                                    Neighbor House <br />
-                                    Half Destroyed
-                                </h2>
-                                <div class="house-three-text">
-                                    <p>
-                                        At the moment, having lost our jobs, my husband and I are
-                                        constantly trying to earn some money for the household
-                                        needs of the family. But the prospect of restoring the
-                                        destroyed apartment on their own in the near future seems
-                                        unrealistic.
-                                    </p>
-                                    <p>
-                                        Any material donation will help our family to return to
-                                        their hometown as soon as possible and start restoring our
-                                        small, but very memorable apartment, in which we were so
-                                        happy together before the war.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="house-four-all">
-                            <div class="house-four-image-one">
-                                <img src="./images/main-6.jpg" alt="" width="390" />
-                            </div>
-                            <div class="house-four-image-two">
-                                <img src="./images/main-7.jpg" alt="" width="250" />
-                            </div>
-                            <div class="house-four-text-all">
-                                <h2 class="section-title">
-                                    Apartment <br />
-                                    Burned Down
-                                </h2>
-                                <div class="house-four-text">
-                                    <p>
-                                        In the family circle with tears we remember things dear to
-                                        our hearts that will never be returned!
-                                    </p>
-                                    <p>
-                                        It was very difficult for our kids to accept the loss of
-                                        their favorite toys and personal items, especially those
-                                        that have been preserved since infancy.
-                                    </p>
-                                    <p>
-                                        We thank God for saving our lives, the lives of our
-                                        children and relatives! We really hope that Ukraine will
-                                        survive!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <div class="divider-top">
-            <img src="./images/pixel-white.jpg" alt="" />
-        </div>
-        <section class="frames">
-            <div class="container frames-all">
-                <div class="frames-image-first">
-                    <div class="frames-image-one">
-                        <img src="./images/main-15.jpg" alt="" width="490" />
-                    </div>
-                    <div class="frames-image-two">
-                        <img src="./images/main-14.jpg" alt="" width="490" />
-                    </div>
-                </div>
-                <div class="frames-text-image">
-                    <h2 class="section-title">
-                        Frames <br />
-                        Of Hell
-                    </h2>
-                    <p class="frames-text">
-                        In Irpen, according to official figures, the Russian army killed
-                        about 300 civilians, including women and, worst of all, children!
-                    </p>
-                    <div class="frames-image-flex">
-                        <div class="frames-image-three">
-                            <img src="./images/main-17.jpg" alt="" width="274" />
-                        </div>
-                        <div class="frames-image-new">
-                            <img src="./images/main-20.jpg" alt="" width="274" />
-                        </div>
-                    </div>
-                    <div class="frames-image-four">
-                        <img src="./images/main-16.jpg" alt="" width="600" />
-                    </div>
-                </div>
-            </div>
+            <img src="./images/main-17.jpg" alt="" class="frames__image-1" />
+
+
+            <img src="./images/main-20.jpg" alt="" class="frames__image-1" />
+
+            <img src="./images/main-16.jpg" alt="" class="frames__image-1" />
         </section>
         <div class="divider-bottom">
             <img src="./images/pixel-white.jpg" alt="" />
