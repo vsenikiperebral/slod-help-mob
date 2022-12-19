@@ -16,26 +16,16 @@
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
-
-    &.primary {
-        color: $pbgc;
+    color: $pbgc;
     background-color: $navlac;
     border-color: $ptxc;
-    }
+}
 
-    &.primary.first {
-        margin-left: auto;
+
+.button__first {
+        margin-top: 20px;
+    }
+ .button__second {
         margin-top: 10px;
-    align-self: flex-start;
-    }
-    &.secondary {
-        display: inline-block;
-  
-    color: $brdc;
-    background-color: $pbgc;
-    border: 1px solid $ptxc;
-    }
-    &.secondary.first {
-        margin-top: 40px;
-    }
-  }
+        margin-bottom: 10px;
+    }   

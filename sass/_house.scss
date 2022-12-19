@@ -1,0 +1,16 @@
+.house {
+  background-color: #f7f6f1;
+}
+
+.house__text {
+    @media screen and (min-width: 360px) and (max-width: 767px)
+  {
+    font-size: calc(20px + (24 - 20) * ((100vw - 360px) / (767 - 360)));
+  }
+}
+
+.house__image-1 {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

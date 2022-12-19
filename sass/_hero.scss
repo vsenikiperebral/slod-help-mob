@@ -3,21 +3,13 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 20px;
 text-align: center;
 
 background-image: url("../images/hero-bg-1.jpg");
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-    @media screen and (min-width: 1280px) and (max-width: 1920px)
-  {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 1320px;
-  }
 }
 
 .hero__img {
@@ -53,4 +45,11 @@ margin-bottom: 30px;
     margin-top: 0;
     margin-bottom: 100px;
   }
+  }
+
+  .hero__text {
+    @media screen and (min-width: 360px) and (max-width: 767px)
+    {
+      font-size: calc(20px + (24 - 20) * ((100vw - 360px) / (767 - 360)));
+    }
   }
