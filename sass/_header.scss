@@ -1,6 +1,5 @@
 .header {
   background-color: $ptxc;
-  width: 100%;
 
   .container.nav {
     display: flex;
@@ -17,10 +16,9 @@
       font-weight: 700;
       font-size: 38px;
 
-      @media screen and (max-width: 767px)
-    {
-      font-size: 30px;
-    }
+      @media screen and (max-width: 767px) {
+        font-size: 30px;
+      }
     }
 
     .logo-yellow {
@@ -31,8 +29,7 @@
       font-weight: 700;
       font-size: 38px;
 
-      @media screen and (max-width: 767px)
-      {
+      @media screen and (max-width: 767px) {
         font-size: 30px;
       }
     }
