@@ -10,11 +10,9 @@ span {
   text-align: center;
   margin-bottom: 10px;
 
-  @media screen and (min-width: 360px) and (max-width: 767px)
-    {
-      font-size: calc(24px + (30 - 20) * ((100vw - 360px) / (767 - 360)));
-    }
-
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    font-size: calc(24px + (30 - 20) * ((100vw - 360px) / (767 - 360)));
+  }
 }
 
 .about__title {
@@ -28,8 +26,7 @@ span {
 }
 
 .about__text {
-  @media screen and (min-width: 360px) and (max-width: 767px)
-  {
+  @media screen and (min-width: 360px) and (max-width: 767px) {
     font-size: calc(20px + (24 - 20) * ((100vw - 360px) / (767 - 360)));
   }
 }
@@ -45,9 +42,9 @@ span {
   padding-bottom: 10px;
 
   border-color: RGBA(255, 255, 255, 0);
-    border-right-width: 10px;
-    border-bottom-width: 10px;
-    box-shadow: 6px 6px 0px -5px #fa9494;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  box-shadow: 6px 6px 0px -5px #fa9494;
 }
 
 .about__pic-2 {
@@ -61,7 +58,7 @@ span {
   padding-bottom: 10px;
 
   border-color: RGBA(255, 255, 255, 0);
-    border-left-width: 10px;
-    border-bottom-width: 10px;
-    box-shadow: -6px 6px 0px -5px #fa9494;
+  border-left-width: 10px;
+  border-bottom-width: 10px;
+  box-shadow: -6px 6px 0px -5px #fa9494;
 }
