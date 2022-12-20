@@ -1,64 +1,64 @@
-.about {
-  margin-bottom: 30px;
-}
+// .about {
+//   margin-bottom: 30px;
+// }
 
-span {
-  display: block;
-  font-weight: 700;
-  font-size: 24px;
-  color: #fa9494;
-  text-align: center;
-  margin-bottom: 10px;
+// span {
+//   display: block;
+//   font-weight: 700;
+//   font-size: 24px;
+//   color: #fa9494;
+//   text-align: center;
+//   margin-bottom: 10px;
 
-  @media screen and (min-width: 360px) and (max-width: 767px) {
-    font-size: calc(24px + (30 - 20) * ((100vw - 360px) / (767 - 360)));
-  }
-}
+//   @media screen and (min-width: 360px) and (max-width: 767px) {
+//     font-size: calc(24px + (30 - 20) * ((100vw - 360px) / (767 - 360)));
+//   }
+// }
 
-.about__title {
-  text-align: center;
-}
+// .about__title {
+//   text-align: center;
+// }
 
-.about__element {
-  display: block;
-  text-align: center;
-  margin-bottom: 20px;
-}
+// .about__element {
+//   display: block;
+//   text-align: center;
+//   margin-bottom: 20px;
+// }
 
-.about__text {
-  @media screen and (min-width: 360px) and (max-width: 767px) {
-    font-size: calc(20px + (24 - 20) * ((100vw - 360px) / (767 - 360)));
-  }
-}
+// .about__text {
+//   @media screen and (min-width: 360px) and (max-width: 767px) {
+//     font-size: calc(20px + (24 - 20) * ((100vw - 360px) / (767 - 360)));
+//   }
+// }
 
-.about__pic-1 {
-  width: 70%;
+// .about__pic-1 {
+//   width: 70%;
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
 
-  padding-right: 10px;
-  padding-bottom: 10px;
+//   padding-right: 10px;
+//   padding-bottom: 10px;
 
-  border-color: RGBA(255, 255, 255, 0);
-  border-right-width: 10px;
-  border-bottom-width: 10px;
-  box-shadow: 6px 6px 0px -5px #fa9494;
-}
+//   border-color: RGBA(255, 255, 255, 0);
+//   border-right-width: 10px;
+//   border-bottom-width: 10px;
+//   box-shadow: 6px 6px 0px -5px #fa9494;
+// }
 
-.about__pic-2 {
-  width: 70%;
+// .about__pic-2 {
+//   width: 70%;
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
 
-  padding-left: 10px;
-  padding-bottom: 10px;
+//   padding-left: 10px;
+//   padding-bottom: 10px;
 
-  border-color: RGBA(255, 255, 255, 0);
-  border-left-width: 10px;
-  border-bottom-width: 10px;
-  box-shadow: -6px 6px 0px -5px #fa9494;
-}
+//   border-color: RGBA(255, 255, 255, 0);
+//   border-left-width: 10px;
+//   border-bottom-width: 10px;
+//   box-shadow: -6px 6px 0px -5px #fa9494;
+// }
