@@ -392,27 +392,18 @@ span {
   }
 }
 
-.container.donate {
+.donate {
   background-color: #f7f6f1;
-  border: 1px solid #000000;
-  position: relative;
-  height: 600px;
-  -webkit-box-shadow: 0px 50px 0px 30px rgba(250, 148, 148, 0.1);
-          box-shadow: 0px 50px 0px 30px rgba(250, 148, 148, 0.1);
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .donate__all {
   display: block;
   background-color: #fff;
   padding-top: 40px;
-  -webkit-box-shadow: 0px 50px 100px 0px rgba(163, 135, 123, 0.4);
-          box-shadow: 0px 50px 100px 0px rgba(163, 135, 123, 0.4);
-  position: absolute;
-  top: -30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-shadow: 0 1px 2px rgba(163, 135, 123, 0.1), 0 2px 4px rgba(163, 135, 123, 0.1), 0 4px 8px rgba(163, 135, 123, 0.1), 0 8px 16px rgba(163, 135, 123, 0.1), 0 16px 32px rgba(163, 135, 123, 0.1), 0 32px 64px rgba(163, 135, 123, 0.1);
+          box-shadow: 0 1px 2px rgba(163, 135, 123, 0.1), 0 2px 4px rgba(163, 135, 123, 0.1), 0 4px 8px rgba(163, 135, 123, 0.1), 0 8px 16px rgba(163, 135, 123, 0.1), 0 16px 32px rgba(163, 135, 123, 0.1), 0 32px 64px rgba(163, 135, 123, 0.1);
 }
 .donate__all .amount {
   font-family: "Aleo", serif;
@@ -443,6 +434,8 @@ span {
 
 .donate__text {
   margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .donate__text {
