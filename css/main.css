@@ -88,6 +88,7 @@ h7 {
 h1 {
   font-size: 85px;
   font-weight: 700;
+  margin-top: 30px;
 }
 
 h2 {
@@ -133,6 +134,7 @@ h2::after {
 .button.primary.first {
   margin-left: auto;
   margin-top: 10px;
+  margin-bottom: 20px;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -144,6 +146,11 @@ h2::after {
 }
 .button.secondary.first {
   margin-top: 15px;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
 }
 
 .logo-blue {
@@ -255,7 +262,7 @@ span {
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   span {
-    font-size: calc(18px + 12 * (100vw - 320px) / 447);
+    font-size: calc(18px + 10 * (100vw - 320px) / 447);
   }
 }
 
