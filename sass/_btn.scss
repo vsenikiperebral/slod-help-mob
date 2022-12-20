@@ -1,30 +1,41 @@
 .button {
-  display: inline-block;
+    display: inline-block;
+  
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    min-width: 130px;
+    border: 1px solid;
+  
+    color: $ptxc;
+    background-color: $pbgc;
+    text-decoration: none;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
 
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  min-width: 130px;
-  border: 1px solid;
+    &.primary {
+        color: $pbgc;
+    background-color: $navlac;
+    border-color: $ptxc;
+    }
 
-  color: $ptxc;
-  background-color: $pbgc;
-  text-decoration: none;
-  text-align: center;
-  font-family: Lato, sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  color: $pbgc;
-  background-color: $navlac;
-  border-color: $ptxc;
-}
-
-.button__first {
-  margin-top: 20px;
-}
-.button__second {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+    &.primary.first {
+        margin-left: auto;
+        margin-top: 10px;
+    align-self: flex-start;
+    }
+    &.secondary {
+        display: inline-block;
+  
+    color: $brdc;
+    background-color: $pbgc;
+    border: 1px solid $ptxc;
+    }
+    &.secondary.first {
+        margin-top: 15px;
+    }
+  }
