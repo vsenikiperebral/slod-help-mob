@@ -1,8 +1,20 @@
 .house {
+  text-align: center;
   background-color: #f7f6f1;
 }
 
+.house__title {
+  
+  @media screen and (max-width: 767px) {
+    font-size: calc(32px + (66 - 32) * ((100vw - 320px) / (767 - 320)));
+  }
+
+  margin-bottom: 20px
+}
+
 .house__text {
+  margin-bottom: 15px;
+
     @media screen and (min-width: 360px) and (max-width: 767px)
   {
     font-size: calc(20px + (24 - 20) * ((100vw - 360px) / (767 - 360)));
