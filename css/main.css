@@ -150,7 +150,6 @@ h2::after {
 
 .header {
   background-color: rgba(0, 0, 0, 0.8);
-  text-align: center;
 }
 
 .logo-blue {
@@ -355,4 +354,41 @@ span {
 .house__image-3 {
   width: 70%;
   margin-bottom: 40px;
+}
+
+.house__image-4 {
+  margin-bottom: 50px;
+}
+
+.frames {
+  margin-top: 10px;
+}
+@media screen and (max-width: 767px) {
+  .frames {
+    text-align: center;
+  }
+}
+
+.frames__title {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .frames__title {
+    font-size: calc(32px + 34 * (100vw - 320px) / 447);
+  }
+}
+
+.frames__image-1 {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.frames__text {
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .frames__text {
+    font-size: calc(18px + 6 * (100vw - 320px) / 447);
+  }
 }/*# sourceMappingURL=main.css.map */
