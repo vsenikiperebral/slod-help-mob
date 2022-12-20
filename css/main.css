@@ -332,9 +332,9 @@ span {
 .house__text {
   margin-bottom: 15px;
 }
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .house__text {
-    font-size: calc(20px + 4 * (100vw - 360px) / 407);
+    font-size: calc(18px + 6 * (100vw - 320px) / 447);
   }
 }
 
