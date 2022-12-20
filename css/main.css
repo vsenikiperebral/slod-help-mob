@@ -408,9 +408,14 @@ span {
 .donate__all .amount {
   font-family: "Aleo", serif;
   font-weight: 700;
-  font-size: 55px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.2em;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .donate__all .amount {
+    font-size: calc(56px + 24 * (100vw - 320px) / 447);
+  }
 }
 
 .donate {
@@ -424,7 +429,9 @@ span {
   font-weight: 700;
   color: #fa9494;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .donate__tittle {
