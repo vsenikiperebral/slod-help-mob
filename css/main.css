@@ -347,23 +347,64 @@ span {
 
 .house__image-1 {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
 .house__image-2 {
-  width: 70%;
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
 .house__image-3 {
   width: 70%;
+  margin-top: 10px;
   margin-bottom: 40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-color: RGBA(255, 255, 255, 0);
+  border-left-width: 10px;
+  border-top-width: 10px;
+  -webkit-box-shadow: -6px -6px 0px -5px #fa9494;
+          box-shadow: -6px -6px 0px -5px #fa9494;
 }
 
 .house__image-4 {
+  width: 70%;
+  margin-bottom: 40px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-color: RGBA(255, 255, 255, 0);
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  -webkit-box-shadow: 6px 6px 0px -5px #fa9494;
+          box-shadow: 6px 6px 0px -5px #fa9494;
+}
+
+.house__image-5 {
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding-right: 10px;
+  padding-top: 10px;
+  border-color: RGBA(255, 255, 255, 0);
+  border-right-width: 10px;
+  border-top-width: 10px;
+  -webkit-box-shadow: 6px -6px 0px -5px #fa9494;
+          box-shadow: 6px -6px 0px -5px #fa9494;
+}
+
+.house__image-6 {
+  width: 70%;
   margin-bottom: 50px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-color: RGBA(255, 255, 255, 0);
+  border-left-width: 10px;
+  border-bottom-width: 10px;
+  -webkit-box-shadow: -6px 6px 0px -5px #fa9494;
+          box-shadow: -6px 6px 0px -5px #fa9494;
 }
 
 .frames {
@@ -474,6 +515,8 @@ span {
 
 .contacts__all {
   text-align: center;
+  margin: auto;
+  max-width: 320px;
 }
 
 .contacts__title {
@@ -541,4 +584,56 @@ span {
 
 .footer {
   margin-top: 50px;
+}
+
+.map {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.map__tittle {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .map__tittle {
+    font-size: calc(22px + 8 * (100vw - 320px) / 447);
+  }
+}
+
+.map__google {
+  width: 100%;
+  height: 300px;
+}
+
+.appart__img {
+  max-width: 70%;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 50px;
+  padding-top: 5px;
+}
+
+.footer__tittle {
+  margin: 0;
+  padding: 0;
+  font-family: Aleo, serif;
+  font-weight: 700;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .footer__tittle {
+    font-size: calc(22px + 4 * (100vw - 320px) / 447);
+  }
+}
+
+.copyright {
+  padding-bottom: 8px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
