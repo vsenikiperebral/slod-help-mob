@@ -23,8 +23,18 @@
 
     <header class="header">
         <nav class="nav container">
-            <a href="./index.html" class="logo-blue"> Slodovnik </a>
-            <a href="./index.html" class="logo-yellow"> Help </a>
+            <div class="logo">
+                <a href="./index.html" class="logo-blue"> Slodovnik </a>
+                <a href="./index.html" class="logo-yellow"> Help </a>
+            </div>
+            <div>
+                <button type="button" class="menu-button">
+                    <svg class="bars" width="40" height="40">
+                        <use href="./icons/symbol-defs-menu.svg#close"></use>
+                        <use href="./icons/symbol-defs-menu.svg#menu"></use>
+                    </svg>
+                </button>
+            </div>
             <div class="donation-word">Donation:</div>
             <ul class="donations">
                 <li class="item"><a href="./iban.html" class="link">IBAN</a></li>
@@ -65,8 +75,6 @@
         <div class="divider-bottom">
             <img src="./images/pixel-white.jpg" alt="" />
         </div>
-
-
 
         <!-- ABOUT -->
 
@@ -158,8 +166,8 @@
                     <p class="house__text">
                         At the moment, having lost our jobs, my husband and I are
                         constantly trying to earn some money for the household needs of
-                        the family. But the prospect of restoring the destroyed
-                        apartment on their own in the near future seems unrealistic.
+                        the family. But the prospect of restoring the destroyed apartment
+                        on their own in the near future seems unrealistic.
                     </p>
                     <p class="house__text">
                         Any material donation will help our family to return to their
@@ -185,8 +193,8 @@
                     </p>
                     <p class="house__text">
                         It was very difficult for our kids to accept the loss of their
-                        favorite toys and personal items, especially those that have
-                        been preserved since infancy.
+                        favorite toys and personal items, especially those that have been
+                        preserved since infancy.
                     </p>
                     <p class="house__text">
                         We thank God for saving our lives, the lives of our children and
@@ -211,14 +219,18 @@
                 Of Hell
             </h2>
             <p class="frames__text">
-                In Irpen, according to official figures, the Russian army killed
-                about 300 civilians, including women and, worst of all, children!
+                In Irpen, according to official figures, the Russian army killed about
+                300 civilians, including women and, worst of all, children!
             </p>
             <img src="./images/main-14.jpg" alt="" class="frames__image-1" />
             <img src="./images/main-15.jpg" alt="" class="frames__image-1" />
 
-            <img src="./images/main-17.jpg" alt="" class="frames__image-1" />
-
+            <img srcset="
+            ./images/main-17-270.jpg 270w,
+            ./images/main-17-320.jpg 320w,
+            ./images/main-17-360.jpg 360w,
+            ./images/main-17-480.jpg 480w
+          " src="./images/main-17-270.jpg" alt="Irpin Doll" class="frames__image-1" />
 
             <img src="./images/main-20.jpg" alt="" class="frames__image-1" />
 
@@ -263,7 +275,8 @@
                                     <use href="./icons/symbol-defs.svg#phone"></use>
                                 </svg>
                                 <p class="contacts__word">Phone</p>
-                                <a class="contacts__link" href="tel:+380962134865"> +380 96 213 48 65</a>
+                                <a class="contacts__link" href="tel:+380962134865">
+                                    +380 96 213 48 65</a>
                             </div>
                         </li>
                         <li class="contacts__item">
@@ -307,8 +320,6 @@
                 </div>
             </div>
         </section>
-
-
     </main>
 
     <footer class="footer">

@@ -2,6 +2,13 @@
   background-color: $ptxc;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
+
 .logo-blue {
   color: #0f6bd0;
   font-family: Aleo, serif;
